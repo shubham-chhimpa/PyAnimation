@@ -7,7 +7,13 @@ A python library for creating 2D  animation Video
 * To produce 2D animation Video we have to first create sequence of images(or frame) that leads to animation
 * Then we will merge these frames into a video(.mp4)
 
+## mvp video
 
+It's not possible to embed videos directly, but you can put an image which links to a youtube video:
+
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/1b3N-sQrQ7Y/0.jpg)]
+
+(https://www.youtube.com/watch?v=1b3N-sQrQ7Y)
 
 
 ## Tasks
