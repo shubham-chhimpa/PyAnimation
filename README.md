@@ -26,3 +26,15 @@ A python library for creating 2D  animation Video
 4. Use less third party libs as possible
 5. Use virtual environment
 6. Follow Object orientation Programming approach only
+
+## Get Started with MVP
+To run MVP(Minimum Viable Product)
+* First a Virtual Environment
+* Then run following command
+```
+pip install requirements.txt
+```
+* Now run 
+```
+python mvp.py
+```
