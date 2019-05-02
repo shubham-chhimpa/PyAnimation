@@ -35,7 +35,11 @@ It's not possible to embed videos directly, but you can put an image which links
 
 ## Get Started with MVP
 To run MVP(Minimum Viable Product)
-* First a Virtual Environment
+* First create a Virtual Environment(vnev in PyCharm)
+* then clone this repo
+```
+git clone https://github.com/shubham-chhimpa/PyAnimation.git
+```
 * Then run following command
 ```
 pip install requirements.txt
