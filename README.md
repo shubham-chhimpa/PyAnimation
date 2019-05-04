@@ -42,7 +42,7 @@ git clone https://github.com/shubham-chhimpa/PyAnimation.git
 ```
 * Then run following command
 ```
-pip install requirements.txt
+pip install -r requirements.txt
 ```
 * Now run 
 ```
