@@ -11,7 +11,7 @@ fourcc = cv.VideoWriter_fourcc(*'XVID')
 out = cv.VideoWriter('output.avi', fourcc, 20.0, (IMG_WIDTH, IMG_HEIGHT))
 
 # loop for the image generation
-for i in range(0, 100):
+for i in range(0, 1500):
     # the top image on the frame
     upperImage = Image.open('./transparent/penguin.png', 'r')
 
