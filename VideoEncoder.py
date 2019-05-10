@@ -29,12 +29,13 @@ class VideoEncoder:
     def write2(self):
         for frame in self.frame_array:
             # code to convert pillow image format to opencv image format
-            pil_image = Image.open(os.path.join(self.current_path, 'tmp', frame), 'r')
-            pil_image = pil_image.convert('RGB')
-            open_cv_image = np.array(pil_image)
-            # Convert RGB to BGR
-            open_cv_image = open_cv_image[:, :, ::-1].copy()
-            self.video_writer.write(open_cv_image)
+            for i in range(20):
+                pil_image = Image.open(os.path.join(self.current_path, 'tmp', frame), 'r')
+                pil_image = pil_image.convert('RGB')
+                open_cv_image = np.array(pil_image)
+                # Convert RGB to BGR
+                open_cv_image = open_cv_image[:, :, ::-1].copy()
+                self.video_writer.write(open_cv_image)
         self.video_writer.release()
         shutil.rmtree(os.path.join(self.current_path, 'tmp'))
         if Util.is_admin():

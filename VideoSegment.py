@@ -48,7 +48,7 @@ class VideoSegment:
                 os.mkdir(os.path.join(self.current_path, 'tmp'))
 
         self.background_frame = Image.new('RGB', (Util.FRAME_WIDTH, Util.FRAME_HEIGHT), color=self.background_color)
-        for i in range(0, duration * 20):
+        for i in range(0, duration):
             self.background_frame.save(os.path.join(self.current_path,'tmp','frame' + str(i) + '.png'))
             self.frame_array.append('frame' + str(i) + '.png')
 
