@@ -34,11 +34,17 @@ A python library for creating 2D  animation Video
 
 ## Get Started with MVP
 To run MVP(Minimum Viable Product)
-* First create a Virtual Environment(vnev in PyCharm)
-* then clone this repo
+* First clone this repo
 ```
 git clone https://github.com/shubham-chhimpa/PyAnimation.git
 ```
+* Then move to /PyAnimation directory in terminal
+* Then create a Virtual Environment using the following command
+```bash
+python -m venv venv
+```
+* Then activate the virtual environment
+
 * Then run following command
 ```
 pip install -r requirements.txt
