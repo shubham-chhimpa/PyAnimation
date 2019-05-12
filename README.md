@@ -9,7 +9,6 @@ A python library for creating 2D  animation Video
 
 ## mvp video
 
-It's not possible to embed videos directly, but you can put an image which links to a youtube video:
 
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/1b3N-sQrQ7Y/0.jpg)]
 
